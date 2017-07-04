@@ -19,25 +19,25 @@ Lowest layer of the OSI model, it is concerned with the transmission and recepti
 **DATA LINK LAYER :**
 
 It provides error-free transfer of data frames from one node to another over the physical layer. 
-	* Establish logical link between two nodes
-	* Controls frame traffic
-	* Transmits and receive frames sequentialy
-	* Create and recognize frame boundries
-	* Frame error checking
+* Establish logical link between two nodes
+* Controls frame traffic
+* Transmits and receive frames sequentialy
+* Create and recognize frame boundries
+* Frame error checking
 
 **NETWORK LAYER :**
 
 The network layer control the operation of the network, deciding which physical path the data should take based on network condition and priority of service. It provides :
-	* Routing frames in network
-	* Logical-Physical address mapping
-	* Subnet traffic control etc.
+* Routing frames in network
+* Logical-Physical address mapping
+* Subnet traffic control etc.
 
 **TRANSPORT LAYER :**
 
 This layer relieves the higher layer protocols from any concern with the transfer of data between them and their peers. It provides
-	* Message segmentation: disassmebles and reassembles the message semgements.
-	* Reliable end-to-end message delivery
-	* Message traffic control and session multiplexing.
+* Message segmentation: disassmebles and reassembles the message semgements.
+* Reliable end-to-end message delivery
+* Message traffic control and session multiplexing.
 
 Typically Transport layer accepts large messages from higher layer breaks the message into smaller units prepending a header that include control information such as message start and end flags and sequence information.
 
@@ -48,14 +48,14 @@ Transport layer uses different protocol to serve its purposes like TCP(Transfer 
 **SESSION LAYER :**
 
 This layer allows session establishment between processes running on differnet stations. It provides
-	* Session establishments, maintainance and termination
+* Session establishments, maintainance and termination
 
 **PRESENTATION LAYER :**
 
 This layer formats the data to be presented to the application layer. It works as a translator for the network. It converts format from a common format for sending and recieving station to a format known to application layer. It provides.
-	* Character code translation
-	* Data conversion and compression
-	* Data encryption
+* Character code translation
+* Data conversion and compression
+* Data encryption
 
 **APPLICATION LAYER :**
 
