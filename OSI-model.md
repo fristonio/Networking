@@ -72,3 +72,6 @@ Transport | TCP, UDP etc
 Network | IP, Ipsec, RIP etc
 DataLink | PPP, SBTV, SLIP
 Physical |  
+
+
+![OSI Model](Resources/osi.png)
